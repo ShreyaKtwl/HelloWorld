@@ -1,0 +1,30 @@
+
+public class Question4 {
+
+    public static void main(String[] args) {
+        
+        int len;
+        String[] input=new String[]{"Hello","I","Am","A","Learner"};
+
+        System.out.println("**************"); 
+        
+        for(int i=0;i<5;i++){
+            len=0;
+            System.out.print("* "+input[i]);
+            
+            len=input[i].length();
+            
+            do{
+                System.out.printf(" ");
+                len++;
+            }while(len<11);
+            
+            System.out.printf("*");
+            
+            System.out.println("");
+        }
+        
+        System.out.println("**************"); 
+    }
+    
+}
